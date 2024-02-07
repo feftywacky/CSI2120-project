@@ -51,7 +51,7 @@ public class SimilaritySearch {
         // print out the 5 most similar images from the dataset to the query image
         int count = 5;
         System.out.println("");
-        System.out.println("The 5 most similar images from the dataset to the query image are: ");
+        System.out.println("The 5 most similar images from the dataset to " + args[0] + " are: ");
         while (!pq.isEmpty()) {
             Map.Entry<String, Double> entry = pq.poll();
             System.out.println("#" + count + " => Image: " + entry.getKey() + ", Similarity: " + entry.getValue());
