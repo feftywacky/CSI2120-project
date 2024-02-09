@@ -1,3 +1,9 @@
+/*
+ * CSI2120[A]
+ * FEIYU LIN #300298455
+ * CHRISTOPHER LIT #300298516
+ */
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
