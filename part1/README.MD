@@ -1,4 +1,3 @@
-#
 CSI2120[A] <br>
 PROJECT PART 1 <br>
 FEIYU LIN #300298455 <br>
@@ -8,6 +7,7 @@ CHRISTOPHER LIT #300298516 <br>
 1. ensure dataset folder is named exactly "imageDataset2_15_20"
 2. ensure query image folder is named exactly "queryImages"
 3. ensure the dataset and query image folders are in the same directory as the java files
+NOTE: the dataset is not given in the zip file
 
 the code used to parse images has a hard coded file path shown below
 
