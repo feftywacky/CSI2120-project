@@ -5,7 +5,7 @@ CHRISTOPHER LIT #300298516 <br>
 ## Getting Started
 1. ensure dataset folder is named exactly "imageDataset2_15_20"
 2. ensure query image folder is named exactly "queryImages"
-3. ensure the dataset and query image folders are in the same directory as the java files
+3. ensure the dataset and query image folders are in the same directory as the java files <br>
 NOTE: the dataset is not given in the zip file
 
 the code used to parse images has a hard coded file path shown below
