@@ -36,6 +36,9 @@ public class SimilaritySearch {
         // note that setImage will reduce the color space of the image to d-bit
         query_image_hist.setImage(query_image); 
 
+        // save the histogram of the query image
+        query_image_hist.save(args[0] + ".txt");
+
         // init priority queue with custom comparator to filter 5 most similar images
         // maps the filename to the similarity score and compares it by the similarity score (retrived using lambda function)
         PriorityQueue<Map.Entry<String, Double>> pq = new PriorityQueue<>(Comparator.comparing((entry) -> entry.getValue()));
@@ -52,6 +55,7 @@ public class SimilaritySearch {
                 if (pq.size() > 5) {
                     pq.poll();
                 }
+
             }
         }
 

@@ -2,7 +2,7 @@ CSI2120[A] <br>
 FEIYU LIN #300298455 <br>
 CHRISTOPHER LIT #300298516 <br>
 
-## Getting Started
+## Getting Started: PROJECT PART 1
 1. ensure dataset folder is named exactly "imageDataset2_15_20"
 2. ensure query image folder is named exactly "queryImages"
 3. ensure the dataset and query image folders are in the same directory as the java files <br>
