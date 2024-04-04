@@ -17,7 +17,7 @@ you should see compilation success similar as the following in the terminal:
 ```bash
 % c:/Users/linfe/OneDrive/Desktop/csi2120/project/part4/similaritySearch.pl compiled 0.00 sec, 13 clauses
 ```
-now run the following predicate: 
+now run the following query: 
 ```bash
 similarity_search('<full filepath to your text file containing pre-computed histograms of the query image>', SimilarList).
 ```
